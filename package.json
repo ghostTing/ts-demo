@@ -1,0 +1,25 @@
+{
+  "name": "efox-ts-demo",
+  "version": "1.0.5",
+  "description": "用于讲解使用ts编写npm模块",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc -p .",
+    "lint": "tslint -p ."
+  },
+  "keywords": [
+    "typescript",
+    "jest"
+  ],
+  "author": "clint",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^23.3.5",
+    "browserify": "^16.2.3",
+    "jest": "^23.6.0",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.2"
+  }
+}
